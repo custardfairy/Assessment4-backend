@@ -22,8 +22,39 @@
         <a onclick="bgchange(id)" id="color5"> #fd79a8</a>
       </p>
 
+      <div>
+        <label for="goal-category">
+          Get by with a little help from your friends.
+        </label>
+        <select name="" id="goal-category">
+          <option value="spirituality">Spirituality</option>
+          <option value="finance">Finance</option>
+          <option value="sports">Sports</option>
+          <option value="creative">Creative</option>
+          <option value="coding">Coding</option>
+        </select>
+        <button id="category-submit" >Get Advice</button>
+      </div>
+  
+      <section id="add-goal">
+        Enter your category:
+        <input type="text" id="add-category">
+        <br>
+        <textarea type="text" rows="30" cols="40" id="add-advice" placeholder="enter advice here..."></textarea>
+        <button id="add-advice-btn">Add Advice</button>
+      </section>
+  
+      <section id="delete-advice">
+        <input type="text" id="delete-category-input" placeholder="enter category">
+        <button id="delete-category-btn">Delete Category</button>
+      </section>
+  
+      <section id="display-section"></section>
+  
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="main.js"></script>
 
-  </div>
+  <!-- </div>
     <div>  
       <p>Who runs the world according to Beyonce?</p>
       
@@ -38,7 +69,8 @@
       </form>
 
     
-      <br>
+      <br> -->
+      <div></div>
       <img src="https://m0.her.ie/wp-content/uploads/2015/07/17140443/beyonce-questios-gif.gif" alt="Beyonce on her internet">
 
   </body>

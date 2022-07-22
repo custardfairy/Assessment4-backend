@@ -44,3 +44,9 @@ div {
 	background: #fd79a8;
 	color: #fd79a8;
 }
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
