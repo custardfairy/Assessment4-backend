@@ -2,7 +2,7 @@ const goalAdvice = [
   {
     goalId: 1,
     category: "spirituality",
-    advice: `"Compassion refers to the arising in the heart of the desire to relieve the suffering of all beings." Baba Ram Dass`,
+    advice: `"Life demands honesty, the ability to face, admit, and express oneself." ― Starhawk`,
   },
   {
     goalId: 2,
@@ -12,17 +12,17 @@ const goalAdvice = [
   {
     goalId: 3,
     category: "sports",
-    advice: `”It ain't about how hard you can hit. It's about how hard you can get hit, and keep moving forward.” Sylvester Stalone`,
+    advice: `“You have to expect things of yourself before you can do them.” - Michael Jordan`,
   },
   {
     goalId: 4,
     category: "creative",
-    advice: `"Everything you can imagine is real." -- Pablo Picasso`,
+    advice: `"The worst enemy to creativity is self-doubt." - Sylvia Plath`,
   },
   {
     goalId: 5,
     category: "coding",
-    advice: `“Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.” - Dan Salomon`,
+    advice: `“Java is to JavaScript what car is to Carpet.” - Chris Heilmann`,
   },
 ];
 
