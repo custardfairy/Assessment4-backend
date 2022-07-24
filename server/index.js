@@ -17,7 +17,7 @@ const { deleteAdvice } = require("./controller");
 app.get("/api/compliment", getCompliment);
 app.get("/api/fortune", getFortune);
 app.get("/api/inspiration", getInspo);
-app.get("/api/goaladvice", getAdviceHandler);
+// app.get("/api/goaladvice", getAdviceHandler);
 app.get("/api/goal/advice/", getAdviceByCategory);
 app.post("/api/goal/advice", postAdvice);
 app.delete("/api/goal/:category", deleteAdvice);
